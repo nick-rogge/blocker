@@ -60,7 +60,7 @@ Your rules don't cover these, so the standard Quoridor rules apply unless told o
     - Piece move: `U` `D` `L` `R` (canonical directions; `U` is toward row 0). A jump is the same letter: moving toward an adjacent opponent jumps over it.
     - Diagonal move (only after a blocked jump): `Q` up-left, `E` up-right, `Z` down-left, `X` down-right
     - Wall: `h` or `v`, then one base-64 character for the anchor index `row * 8 + col` (0–63)
-  - Example: `#v1.c.UUhAvFLR`
+  - Example: `#v1.c.DUhAvFLR` (a new game with no moves yet is just `#v1.c`)
 - Player B (the non-creator) always moves first, so the side to move is derived from the creator and the move count. Positions, wall counts, and whose turn it is are all derived by replay.
 - If a link fails to decode or replay, show a friendly **"This game link is broken or was edited. Whomp Whomp"** screen — never a blank page or crash.
 - Older links from the same game show that earlier position. The player who opens one can only move if it's actually their turn in that state. There is no server to know a newer link exists, so don't try to detect that.
