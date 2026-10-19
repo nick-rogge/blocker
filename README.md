@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://YOUR-USERNAME.github.io/blocker/"><b>▶ Play now</b></a>
+  <a href="https://nick-rogge.github.io/blocker/"><b>▶ Play now</b></a>
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ Nothing counts until you tap Confirm, so a mis-tap never costs you a move. If a 
 You'll need [Node.js](https://nodejs.org/) 20.19 or newer.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/blocker.git
+git clone https://github.com/nick-rogge/blocker.git
 cd blocker
 npm install
 npm run dev     # play locally at the address it prints
